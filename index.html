@@ -3,41 +3,51 @@
 
 <body>
   <h1>Practice Problems Webpage</h1>
-  <p>All your solutions for this set of practice problems are located in the Replit console.  Please open the console by clicking the wrench icon near the top-right corner of this browser.
+  <p>All your solutions for this set of practice problems are located in the Replit console. Please open the console by
+    clicking the wrench icon near the top-right corner of this browser.
   </p>
   <script>
-    /* 
-    PROBLEM 1: 
+    /*
+    PROBLEM 1: One of the two following operations is not going to work. Which one? Log out str and arr to find out.
     */
-    //ENTER YOUR CODE HERE
-     
-    /* 
-    PROBLEM 2: 
-    */
-    //ENTER YOUR CODE HERE
-    
-     /* 
-    PROBLEM 3: 
-    */
-    //ENTER YOUR CODE HERE
+    let str = 'abc';
+    let arr = ['a', 'b', 'c'];
+    str[0] = 'A'; // operation 1. Did we mutate the string inside str? // no
+    arr[0] = 'A'; // operation 2. Did we mutate the array inside arr? // yes
+    // Create your console.logs here:
+    console.log(str);
+    console.log(arr);
 
-    /* 
-    PROBLEM 4: 
+    /*
+    PROBLEM 2: Is the following operation incrementing both values? Log out num and copy to find out.
     */
-    //ENTER YOUR CODE HERE
+    let num = 1;
+    let copy = num;
+    num++; // is this affecting copy also? // no
+    // Create your console.logs here:
+    console.log(num);
+    console.log(copy);
 
-    /* 
-    PROBLEM 5 (DEBUGGING): 
+    /*
+    PROBLEM 3: Is the following operation changing likesPizza? Log out likesPizza and likesBroccoli to find out.
     */
-    
-  </script> 
-  <section style="border: 2px solid blue; border-radius: 5px; padding: 10px; box-shadow: 5px 3px 3px orange; margin-top: 20px;">
+    let likesPizza = true;
+    let likesBroccoli = !likesPizza; // is this changing the value of likesPizza? // no, likesPizza remains true
+    // Create your console.logs here:
+    console.log(likesPizza);
+    console.log(likesBroccoli);
+
+  </script>
+  <section
+    style="border: 2px solid blue; border-radius: 5px; padding: 10px; box-shadow: 5px 3px 3px orange; margin-top: 20px;">
     <h3>About The Solutions</h3>
     <p>
-    PLEASE READ: To access the solutions to these practice problems, click the "index (solution).html" file on the left-hand side of the Replit website, under "Files".  You can try each solution by copying it into your "index.html" file and clicking "Run". 
+      PLEASE READ: To access the solutions to these practice problems, click the "index (solution).html" file on the
+      left-hand side of the Replit website, under "Files". You can try each solution by copying it into your
+      "index.html" file and clicking "Run".
       <br></br>
     <h4>Remember to please try the
-    practice problems first before looking at the solutions.</h4>
+      practice problems first before looking at the solutions.</h4>
     </p>
   </section>
 </body>
